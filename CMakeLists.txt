@@ -8,7 +8,7 @@ include(ExternalProject)
 
 file(MAKE_DIRECTORY ${CATKIN_DEVEL_PREFIX}/include)
 
-set(VERSION 3.7.0)
+set(VERSION 3.9.1)
 ExternalProject_Add(json_src
   URL https://github.com/nlohmann/json/archive/v${VERSION}.zip
   UPDATE_COMMAND ""

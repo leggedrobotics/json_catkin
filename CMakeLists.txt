@@ -20,6 +20,6 @@ include_directories(${install_dir}/include)
 
 
 install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/include/nlohmann
-        DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+        DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}
         FILES_MATCHING PATTERN "*.hpp")
 cs_export(INCLUDE_DIRS ${CATKIN_DEVEL_PREFIX}/include/)
